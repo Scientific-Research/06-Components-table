@@ -44,4 +44,5 @@ th,
 td {
   border: 1px solid #343a40; /*One border we have here!*/
   padding: 16px 24px;
+  text-align: left;
 }
