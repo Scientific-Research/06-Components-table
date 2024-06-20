@@ -24,4 +24,16 @@ body {
   color: #343a40;
   /* border-bottom: 8px solid #087f5b; */
   line-height: 1; /*line-height get herited by other elements - that's why as GLOBAL RESET, we can use it here!*/
+
+  /*To bring the whole table in the center of the page using flex container:first solution */
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  background-color: red;
+  /*To put the table in the middle of the page using margin auto:second solution*/
+  /* margin: 0 auto; */
+  margin-top: 100px;
 }
