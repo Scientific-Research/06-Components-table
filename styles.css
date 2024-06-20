@@ -58,11 +58,11 @@ thead tr th {
   width: 25%;
 }
 
-/*using Pseudo class to give the different colors to the even and odd rows */
+/*using Pseudo class => nth-child() to give the different colors to the even and odd rows => Zebra Stripes*/
 tbody tr:nth-child(even) {
-  background-color: #d7e5f3;
+  background-color: #e9ecef; /*getting this color from open color website*/
 }
 
 tbody tr:nth-child(odd) {
-  background-color: rgb(246, 237, 237);
+  background-color: #f8f9fa; /*getting this color from open color website*/
 }
