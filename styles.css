@@ -36,13 +36,23 @@ table {
   /*To put the table in the middle of the page using margin auto:second solution*/
   /* margin: 0 auto; */
   margin-top: 100px;
-  border: 1px solid #343a40; /*One border we have here!*/
-  border-collapse: collapse; /*using collapse to convert the two borders to only one line!*/
+  /* border: 1px solid #343a40; One border-line we have here! */
+  border-collapse: collapse;
+  /* using collapse to convert the two borders-line to only one line! 
+  OR totally when we have a strange border-line and we want to remove that!*/
 }
 
 th,
 td {
-  border: 1px solid #343a40; /*One border we have here!*/
+  /* border: 1px solid #343a40; One border-line we have here! */
   padding: 16px 24px;
   text-align: left;
+}
+
+thead tr th {
+  background-color: #087f5b;
+  color: #fff;
+  font-size: large;
+  /*when we want to give every column exactly the same width => 100% % 4 = 25%*/
+  width: 25%;
 }
