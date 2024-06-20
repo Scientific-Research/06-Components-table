@@ -57,3 +57,12 @@ thead tr th {
   /*when we want to give every column exactly the same width => 100% % 4 = 25%*/
   width: 25%;
 }
+
+/*using Pseudo class to give the different colors to the even and odd rows */
+tbody tr:nth-child(even) {
+  background-color: #d7e5f3;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(246, 237, 237);
+}
